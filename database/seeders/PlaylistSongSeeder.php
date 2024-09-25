@@ -11,16 +11,16 @@ class PlaylistSongSeeder extends Seeder
     {
         $playlistInternacional = DB::table('playlists')->where('name', 'Playlist Internacional')->value('id');
         $playlistBrasileira = DB::table('playlists')->where('name', 'Playlist Brasileira')->value('id');   
-        $playlistEspanhola = DB::table('playlists')->where('name', 'Playlist Espanhola')->value('id');   
+        $playlistMorningVibes = DB::table('playlists')->where('name', 'Playlist Morning Vibes')->value('id');   
 
-        if (is_null($playlistInternacional) || is_null($playlistBrasileira) || is_null($playlistEspanhola)) {
+        if (is_null($playlistInternacional) || is_null($playlistBrasileira) || is_null($playlistMorningVibes)) {
             $this->command->error('Nenhuma das playlists existem!');
             return;
         }
 
         DB::table('playlist_song')->insert([
             [
-                'playlist_id' => $playlistEspanhola,
+                'playlist_id' => $playlistMorningVibes,
                 'song_id' => 1,
             ],
             [

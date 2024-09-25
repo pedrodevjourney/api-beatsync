@@ -13,7 +13,7 @@ class PlaylistSeeder extends Seeder
         $playlists = [
             'Playlist Internacional',
             'Playlist Brasileira',
-            'Playlist Espanhola',
+            'Playlist Morning Vibes',
         ];
 
         foreach ($playlists as $name) {

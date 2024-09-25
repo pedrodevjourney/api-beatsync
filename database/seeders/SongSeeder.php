@@ -13,21 +13,20 @@ class SongSeeder extends Seeder
         $songs = [
             [
                 "id" => 0,
-                "url" => "https://od.lk/s/ODVfNTg2MjIxODZf/Coldplay%20-%20Hymn%20For%20The%20Weekend%20%28Official%20Video%29.mp3",
-                "title" => "Hymn For the Weekend",
-                "artist" => "Coldplay",
-                "artwork" => "https://upload.wikimedia.org/wikipedia/pt/6/61/Coldplay_Hymn_for_the_Weekend.jpg",
+                "url" => "https://audio.jukehost.co.uk/RDhiUKflNuzyIjw9S95xtpbvM8VdIwle",
+                "title" => "Follow God",
+                "artist" => "Kanye West",
+                "artwork" => "https://i.scdn.co/image/ab67616d00001e021bb797bbfe2480650b6c2964",
                 "rating" => 1,
-
                 
             ],
             [
                 "id" => 2,
 
-                "url" => "https://audio.jukehost.co.uk/Qzcmd4mWnnXfYCvfKdhOUrlniHs7I4gAx",
-                "title" => "Cheia de Manias",
-                "artist" => "Raça Negra",
-                "artwork" => "https://i.scdn.co/image/ab67616d0000b2732046557ea436bdf227db0f58",
+                "url" => "https://audio.jukehost.co.uk/V6LTph14kYoDi2bHThL2YSBES1zxDUgu",
+                "title" => "Temporal",
+                "artist" => "Hungria",
+                "artwork" => "https://i.scdn.co/image/ab67616d0000b2734e00a5307261e5c2816c3da9",
                 "rating" => 1,
 
             ],
@@ -38,7 +37,6 @@ class SongSeeder extends Seeder
                 "artist" => "Alan Walker",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273a108e07c661f9fc54de9c43a",
                 "rating" => 1,
-                
                 
             ],
             [
@@ -77,10 +75,7 @@ class SongSeeder extends Seeder
                 "artist" => "Alan Walker",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273a108e07c661f9fc54de9c43a",
                 "rating" => 1,
-
-           
-                
-                
+     
             ],
             [
                 "id" => 8,
@@ -89,8 +84,7 @@ class SongSeeder extends Seeder
                 "artist" => "David Guetta, Bebe Rexha",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273f9542946a65c266c29f81420",
                 "rating" => 1,
-           
-                
+                 
             ],
             [
                 "id" => 9,
@@ -99,9 +93,7 @@ class SongSeeder extends Seeder
                 "artist" => "Victor e Leo",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b27308ef9009b0273f096846003d",
                 "rating" => 1,
-
-   
-                
+    
             ],
             [
                 "id" => 10,
@@ -110,9 +102,7 @@ class SongSeeder extends Seeder
                 "artist" => "L7NNON",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b2739b3c1e2699c09a4ef344704b",
                 "rating" => 1,
-   
-               
-                
+        
             ],
             [
                 "id" => 11,
@@ -121,8 +111,7 @@ class SongSeeder extends Seeder
                 "artist" => "Twenty One Pilots",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7",
                 "rating" => 1,
-           
-                
+                 
             ],
             [
                 "id" => 12,
@@ -131,9 +120,7 @@ class SongSeeder extends Seeder
                 "artist" => "Racionais MC's",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273497e68476e7062b1bf5ea83f",
                 "rating" => 1,
-
-               
-                
+ 
             ],
             [
                 "id" => 13,
@@ -148,7 +135,7 @@ class SongSeeder extends Seeder
                 "id" => 14,
                 "url" => "https://audio.jukehost.co.uk/dYzF8AvIkwfP0AJ3E1fecsezdqusnLRe",
                 "title" => "Heartless",
-                "artist" => "anye West",
+                "artist" => "Kanye West",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
                 "rating" => 1,
                 
@@ -159,7 +146,8 @@ class SongSeeder extends Seeder
                 "title" => "Lembranças",
                 "artist" => "Hungria",
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b2737fecfd6b2177ab00f45491a2",
-                "rating" => 1,   
+                "rating" => 1, 
+                  
             ],
             [
                 "id" => 16,
@@ -169,7 +157,6 @@ class SongSeeder extends Seeder
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273e3d552d38ba5bbbd06b94164",
                 "rating" => 1,
                
-                
             ],
             [
                 "id" => 17,
@@ -206,7 +193,6 @@ class SongSeeder extends Seeder
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b2739fd5a4d139f98bda50c8bb56",
                 "rating" => 1,
                
-                
             ],
             [
                 "id" => 21,
@@ -393,8 +379,6 @@ class SongSeeder extends Seeder
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273a43cf6d0707bc1339737b152",
                 "rating" => 1,
 
-               
-                
             ],
             [
                 "id" => 41,
@@ -464,8 +448,6 @@ class SongSeeder extends Seeder
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b27309b8bc001cb581ff1f935f82",
                 "rating" => 1,
 
-               
-                
             ],
             [
                 "id" => 48,
@@ -475,7 +457,6 @@ class SongSeeder extends Seeder
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b2739b3c1e2699c09a4ef344704b",
                 "rating" => 1,
 
-               
             ],
             [
                 "id" => 49,
@@ -534,6 +515,14 @@ class SongSeeder extends Seeder
                 "artwork" => "https://i.scdn.co/image/ab67616d0000b273e5a95573f1b91234630fd2cf",
                 "rating" => 1,
                 
+            ],
+            [
+                "id" => 55,
+                "url" => "https://audio.jukehost.co.uk/t5zgNGoUQp58jxkWDJRivN2n4pYGmhGr",
+                "title" => "Bones",
+                "artist" => "Imagine Dragons",
+                "artwork" => "https://i.scdn.co/image/ab67616d0000b273fc915b69600dce2991a61f13",
+                "rating" => 1,
             ],
         ];
 
