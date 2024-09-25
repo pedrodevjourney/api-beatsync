@@ -15,9 +15,9 @@ Route::delete('/songs/{id}', [SongController::class, 'destroy']);
 
 // Rotas para as playlists
 Route::get('/playlists', [PlaylistController::class, 'index']);
-Route::get('/playlists/{playlistId}', [PlaylistController::class, 'show']); //retorna o id da respectiva playlist
-Route::get('/playlists/{playlistId}/songs', [PlaylistController::class, 'showSongs']); //retorna playlists com as musicas dentro 
-Route::post('/playlists/{playlistId}/songs', [PlaylistController::class, 'addSong']); //vai adicionar uma musica a playlist determinada
+Route::get('/playlists/{playlistId}', [PlaylistController::class, 'show']); 
+Route::get('/playlists/{playlistId}/songs', [PlaylistController::class, 'showSongs']); 
+Route::post('/playlists/{playlistId}/songs', [PlaylistController::class, 'addSong']); 
 Route::delete('/playlists/{playlistId}/songs', [PlaylistController::class, 'removeSong']); 
 
 Route::post('/playlists', [PlaylistController::class, 'store']); 
